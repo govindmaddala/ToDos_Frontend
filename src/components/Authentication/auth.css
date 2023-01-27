@@ -11,14 +11,12 @@
     flex-direction: row;
     color: white;
 }
-
 #introductionBox{
     width: 60vw;
     height: 100vh;
     border-right: 2px solid rgb(255, 255, 255);
     flex-wrap: wrap;
 }
-
 #loginBox{
     width: 40vw;
    display: flex;
@@ -26,10 +24,8 @@
    flex-wrap: wrap;
    justify-content: center;
    align-content: center;
-   border: 2px solid white;
-   
+   border: 2px solid white; 
 }
-
 #formBox{
     display: flex;
     flex-wrap: wrap;
@@ -41,7 +37,6 @@
     padding: 2rem;
     border-radius: 20px;
 } 
-
 input{
     border: 2px solid blue !important;
     width: 20vw !important;
@@ -49,12 +44,10 @@ input{
     border-radius: 0.4rem;
     padding-left: 0.5rem;
 }
-
 .errorMessage{
     color: red;
     text-align: center;
 }
-
 #loginBtn{
     width: 20vw !important;
     height: 2vw !important;
@@ -62,12 +55,10 @@ input{
     color: white;
     border-radius: 0.4rem;
 }
-
 #loginBtn:hover{
     cursor: pointer;
     box-shadow: 2px 2px 2px black;
 }
-
 .linkClass{
     color: yellow;
 }

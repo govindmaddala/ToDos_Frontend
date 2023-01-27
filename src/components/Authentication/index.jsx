@@ -77,5 +77,4 @@ const Index = ({ setUser, setIsLogged }) => {
     </div>
   );
 };
-
 export default Index;

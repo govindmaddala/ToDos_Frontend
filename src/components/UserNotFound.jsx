@@ -9,5 +9,4 @@ const UserNotFound = () => {
     </div>
   )
 }
-
 export default UserNotFound

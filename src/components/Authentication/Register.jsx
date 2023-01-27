@@ -2,8 +2,6 @@ import React from "react";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
-// import jwtDecode from "jwt-decode";
-
 const Register = ({ setUser, setIsLogged }) => {
   const navigate = useNavigate();
   const [credentials, setCredentials] = useState({
@@ -11,7 +9,6 @@ const Register = ({ setUser, setIsLogged }) => {
     email: "",
     password: "",
   });
-
   const handleChange = (e) => {
     const { name, value } = e.target;
     setCredentials((prev) => {
@@ -21,7 +18,6 @@ const Register = ({ setUser, setIsLogged }) => {
       };
     });
   };
-
   const getRegister = (e) => {
     e.preventDefault();
     const newUserData = credentials;
@@ -86,5 +82,4 @@ const Register = ({ setUser, setIsLogged }) => {
     </div>
   );
 };
-
 export default Register;

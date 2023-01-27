@@ -37,14 +37,12 @@ const App = () => {
         localStorage.removeItem("AUTH_TOKEN");
     }
     return (
-        // <Router>
         <Routes>
             <Route path="/register" element={<Register />} />
             <Route path="/" element={<Index setUser={setUser} setIsLogged={setIsLogged} />} />
             <Route path="/home" element={<Home isLogged={isLogged} user={user} setUser={setUser} setIsLogged={setIsLogged} logoutFunction={logoutFunction} />} />
             <Route path="*" element={<UserNotFound />} />
         </Routes>
-        // </Router>
     )
 }
 export default App
